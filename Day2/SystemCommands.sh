@@ -17,3 +17,31 @@
 
 # echo - print
 # -e enable \n etc.. interpretation
+
+# sort - Write sorted concatenation of all FILE(s) to standard output.
+# -r - reverse
+# -t - field separator or delimitor to seperate on
+# -n - numerical sort
+# -k4 - sort on column 4
+
+# uniq - SORT FIRST and then uniq
+# -d duplicated lines
+# sort animals.txt | uniq -d
+
+# cut - Print selected parts of lines from each FILE to standard output
+# -c set characters to cut
+# -d choose column separator
+# -f2,4 display only columns 2 and 4
+# -cut -d":" -f2,4 accounts
+
+# SHOW WHO IS LOGGED ON
+# who | cut -d" " -f1 
+
+# tr Translate,  squeeze,  and/or  delete characters from standard input,writing to standard output
+# [OPTION]... SET1 [SET2]
+# tr  [:lower:]  [:upper:]  < accounts - outputs lower case to upper case
+# -d deletes data
+# -s squeeze
+# who |	tr –s ‘ ‘  | cut –d ‘ ‘ –f 2,3 - run who and then squuze the spaces and the break into columns on space and output only columns 2 and 3
+
+

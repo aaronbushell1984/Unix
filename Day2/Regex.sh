@@ -11,9 +11,15 @@
 
 # * Match zero or more occurrences of the preceding character
 # grep '192*0' /student_files/day1/grepFile 
+# 190
+# 1920
+# 19220
 
 # .* Match with any number of characters
 # grep '192.*0' /student_files/day1/grepFile
+# 192.152.0
+# 1920
+# 19220
 
 # [] Match anything in the [ ] for 1 character position
 

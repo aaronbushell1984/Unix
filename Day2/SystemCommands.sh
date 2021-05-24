@@ -42,6 +42,6 @@
 # tr  [:lower:]  [:upper:]  < accounts - outputs lower case to upper case
 # -d deletes data
 # -s squeeze
-# who |	tr –s ‘ ‘  | cut –d ‘ ‘ –f 2,3 - run who and then squuze the spaces and the break into columns on space and output only columns 2 and 3
+# who |	tr –s ‘ ‘  | cut –d ‘ ‘ –f 2,3 - run who and then squeeze the spaces and the break into columns on space and output only columns 2 and 3
 
 
